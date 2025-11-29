@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BharatCalendar - Your 30-Day Content Calendar, Done.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Basic Reset & Box-Sizing */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f8f8;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        /* Container for responsiveness */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #5a7d9b; /* A calm, supportive blue */
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+            margin-bottom: 40px;
+        }
+        .hero h1 {
+            font-size: 2.8em; /* Larger for impact */
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .hero .button {
+            display: inline-block;
+            background-color: #ff9800; /* An engaging orange */
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+        .hero .button:hover {
+            background-color: #e68900;
+        }
+
+        /* General Section Styling */
+        .section {
+            padding: 40px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 2em;
+            color: #444;
+            margin-bottom: 30px;
+        }
+
+        /* Features Section */
+        .features ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .features li {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 15px;
+            text-align: left;
+            flex: 1;
+            min-width: 280px;
+            max-width: 45%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .features li strong {
+            display: block;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #5a7d9b;
+        }
+        .features li p {
+            font-size: 0.95em;
+            color: #555;
+        }
+
+        /* Pricing Section */
+        .pricing {
+            background-color: #f0f0f0;
+            padding: 60px 0;
+        }
+        .pricing p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 0.9em;
+            margin-top: 50px;
+        }
+        .footer a {
+            color: #ff9800;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+            .hero p {
+                font-size: 1em;
+            }
+            .section h2 {
+                font-size: 1.8em;
+            }
+            .features ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            .features li {
+                max-width: 90%;
+            }
+        }
+        @media (max-width: 480px) {
+            .hero {
+                padding: 60px 15px;
+            }
+            .hero h1 {
+                font-size: 1.8em;
+            }
+            .hero p {
+                font-size: 0.9em;
+            }
+            .hero .button {
+                padding: 12px 25px;
+                font-size: 1em;
+            }
+            .section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <h1>Unlock Consistent Social Media Growth.</h1>
+            <p>Your 30-day content calendar, done. Automatically generated for Instagram & LinkedIn, tailored for Indian small businesses.</p>
+            <a href="#get-started" class="button">Get Started Today</a>
+        </div>
+    </div>
+
+    <div class="section features">
+        <div class="container">
+            <h2>What BharatCalendar Helps You Achieve</h2>
+            <ul>
+                <li>
+                    <strong>Automated 30-Day Content Calendars</strong>
+                    <p>Effortlessly generate a complete month's worth of content ideas for both Instagram and LinkedIn, saving you hours every week.</p>
+                </li>
+                <li>
+                    <strong>Daily Content Ideas with Captions & Hashtags</strong>
+                    <p>Receive ready-to-use daily post suggestions, complete with engaging captions and relevant hashtags specific to your niche and audience in India.</p>
+                </li>
+                <li>
+                    <strong>Review, Edit, and Customize Easily</strong>
+                    <p>Retain full creative control. Our platform allows you to review, edit, and personalize any generated content to perfectly match your brand's voice.</p>
+                </li>
+                <li>
+                    <strong>Visual Calendar & Export Options</strong>
+                    <p>Visualize your content plan in a clear calendar view. Export your content in CSV or PDF formats for easy manual scheduling and team collaboration.</p>
+                </li>
+                <li>
+                    <strong>Focus on Your Business, Not Content Creation</strong>
+                    <p>Stop stressing about what to post next. BharatCalendar handles your social media planning so you can dedicate more time to growing your core business.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section pricing">
+        <div class="container">
+            <h2>Simple, Affordable Plans</h2>
+            <p>Designed for Indian small businesses, our pricing is straightforward and built to help you grow without breaking the bank.</p>
+            <p>Start your journey to consistent social media presence today. Plans starting from just ₹XXX/month.</p>
+            <a href="#pricing-details" class="button">See Pricing Details</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p>&copy; 2023 BharatCalendar. All rights reserved.</p>
+            <p>Contact us: <a href="mailto:info@bharatcalendar.com">info@bharatcalendar.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
